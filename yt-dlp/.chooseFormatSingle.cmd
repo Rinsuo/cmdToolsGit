@@ -4,7 +4,7 @@ setlocal EnableDelayedExpansion
 set /p link= Enter link: 
 ..\yt-dlp.exe -F !link!
 set /p format= Enter format(green number on left): 
-..\yt-dlp.exe !link! -f !format! --embed-thumbnail --no-playlist --wait-for-video 10
+..\yt-dlp.exe !link! -f !format! --embed-thumbnail --no-playlist --wait-for-video 10 --concurrent-fragments 4
 
 echo finished
 goto start
