@@ -18,9 +18,13 @@ yt-dlp: https://github.com/yt-dlp/yt-dlp#usage-and-options
 .forcedExtensionChange - changes file extension when windows refuses (needed it when I renamed a file to .lnk)  
 .wipeExif - wipes exif data
 
-**yt-dlp(click cmd files):**  
-read the file names you'll figure it out  
-on some of them you can put a playlist to download all videos in it
-
 **ffmpeg(drop files to cmd files):**  
 read the file names you'll figure it out
+
+**yt-dlp(click cmd files):**  
+blob.cmd & m3u8.cmd - for downloading m3u8 videos.  
+Check(https://stackoverflow.com/questions/42901942)(headers screen displays info needed for the options)  
+both files are for the same purpose but blob.cmd has way more options that are rarely needed.
+
+other files just read the file names
+on some of them you can put a playlist to download all videos in it
