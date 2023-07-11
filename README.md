@@ -19,12 +19,12 @@ yt-dlp: https://github.com/yt-dlp/yt-dlp#usage-and-options
 .wipeExif - wipes exif data
 
 **ffmpeg(drop files to cmd files):**  
-read the file names you'll figure it out
+read the file names
 
 **yt-dlp(click cmd files):**  
 blob.cmd & m3u8.cmd - for downloading m3u8 videos.  
 Check(https://stackoverflow.com/questions/42901942)(headers screen displays info needed for the options)  
 both files are for the same purpose but blob.cmd has way more options that are rarely needed.
 
-other files just read the file names
-on some of them you can put a playlist to download all videos in it
+other files just read the file names  
+on some of them you can link a playlist or channel to download all videos
