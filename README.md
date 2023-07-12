@@ -23,8 +23,8 @@ read the file names
 
 **yt-dlp(click cmd files):**  
 blob.cmd & m3u8.cmd - for downloading m3u8 videos.  
-Check(https://stackoverflow.com/questions/42901942)(headers screen displays info needed for the options)  
+for info, check https://stackoverflow.com/questions/42901942 , headers screen displays info needed for the options  
 both files are for the same purpose but blob.cmd has way more options that are rarely needed.
 
-other files just read the file names  
-on some of them you can link a playlist or channel to download all videos
+paste a channel or playlist url to download all. (yt, etc.)  
+other files not mentioned - just read the file names  
