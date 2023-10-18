@@ -1,12 +1,14 @@
 @echo off
 SETLOCAL EnableDelayedExpansion
 echo enter blank to skip
+echo current total bitrate: (wait)
+for %%A in (%*) DO ..\ffprobe.exe -v quiet -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 %%A
 
 :start
 set /p usetemp= "use template?(y): "
 if "!usetemp!"=="y" goto templates
 
-set /p isaudio= "is audio?(y): "
+set /p isaudio= "is only audio?(y): "
 if "!isaudio!"=="y" goto yaudio
 if "!isaudio!"=="" goto naudio
 
