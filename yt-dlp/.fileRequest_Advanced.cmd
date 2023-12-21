@@ -26,3 +26,5 @@ echo press any key to start download
 pause
 
 ..\yt-dlp.exe !options! --concurrent-fragments 4 !video_url!
+
+pause
